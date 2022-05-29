@@ -49,7 +49,7 @@ ul {
     height: 800px;
     padding-top: 50px;
     background-color: #265847;
-    background-image: url(./../images/banner.jpg);
+    background-image: url(./../images/index/banner.jpg);
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
@@ -60,7 +60,7 @@ ul {
     align-items: center;
     height: 100px;
     background-color: #265847;
-    background-image: url(./../images/header-small-bg.jpg);
+    background-image: url(./../images/tours/header-small-bg.jpg);
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
