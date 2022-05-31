@@ -52,6 +52,21 @@ ul {
     background: #F2F8F6;
 }
 
+.button {
+    display: inline-block;
+    padding: 12px 40px;
+    background: #0AC883;
+    box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
 /* header */
 
 
@@ -203,18 +218,6 @@ ul {
     color: #138ECE;
 }
 
-.button {
-    display: inline-block;
-    padding: 12px 40px;
-    background: #0AC883;
-    box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 20px;
-    text-decoration: none;
-    color: #FFFFFF;
-
-}
 
 .main-img {
     width: 570px;
@@ -590,6 +593,10 @@ ul {
     margin-bottom: 30px;
 }
 
+.form-group:last-of-type {
+    margin-bottom: 35px;
+}
+
 .form-group-title {
     font-weight: 700;
     font-size: 20px;
@@ -625,8 +632,9 @@ ul {
 }
 
 .radio-row {
+    display: flex;
+    align-items: flex-start;
     margin-bottom: 20px;
-    display: block;
     cursor: pointer;
 }
 
@@ -653,6 +661,7 @@ ul {
     border: 1px solid #C0C0C0;
     border-radius: 50%;
     position: relative;
+    flex-shrink: 0;
 }
 
 .custom-radio::before {
@@ -671,4 +680,55 @@ ul {
 
 .real-radio:checked+.custom-radio::before {
     transform: translate(-50%, -50%) scale(1);
+}
+
+/* Checkboxes */
+
+.checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+
+.custom-checkbox {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 2px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.custom-checkbox::before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+    background-image: url(../images/icons/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.real-checkbox:checked+.custom-checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real-checkbox {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
 }
