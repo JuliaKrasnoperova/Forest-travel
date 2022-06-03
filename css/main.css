@@ -41,6 +41,19 @@ p {
     margin: 0;
 }
 
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
