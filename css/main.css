@@ -67,8 +67,10 @@ ul {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .inner-page {
@@ -142,6 +144,10 @@ ul {
 
 }
 
+.header-nav-button {
+    display: none;
+}
+
 .header-nav-list {
     display: flex;
     gap: 50px;
@@ -169,6 +175,9 @@ ul {
 .header-title {
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    line-height: 1;
 }
 
 .heder-scroll {
@@ -189,7 +198,7 @@ ul {
     left: 50%;
     transform: translateX(-50%);
     content: "";
-    width: 24px;
+    width: 18px;
     height: 24px;
     background-image: url(../images/icons/arrow.svg);
 }
@@ -279,6 +288,7 @@ ul {
 .footer-widgets-wrapper {
     display: flex;
     gap: 30px;
+    margin-top: 10px;
 }
 
 .footer-copyright {
@@ -287,11 +297,11 @@ ul {
 
 .footer-copyright p {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.64;
 }
 
 .footer-logo {
-    margin-bottom: 26px;
+    margin-bottom: 28px;
 }
 
 .footer-logo a:hover {
