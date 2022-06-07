@@ -199,414 +199,415 @@
         height: 510px;
         object-fit: cover;
     }
+}
 
 
 
-    /* MOBILE */
+/* MOBILE */
 
-    @media (max-width:899px) {
-        .container {
-            width: 600px;
-        }
+@media (max-width:899px) {
+    .container {
+        width: 600px;
+    }
 
-        .header-top {
-            width: 100%;
-        }
+    .header-top {
+        width: 100%;
+    }
 
-        .header-content {
-            width: 100%;
-        }
+    .header-content {
+        width: 100%;
+    }
 
-        .header-title {
-            font-size: 42px;
-        }
+    .header-title {
+        font-size: 42px;
+    }
 
-        .header-content p {
-            font-size: 20px;
-        }
+    .header-content p {
+        font-size: 20px;
+    }
 
-        .main {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
-        .main-row {
-            flex-direction: row-reverse;
-            margin-bottom: 60px;
-        }
+    .main-row {
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
 
-        .main-row:nth-child(even) {
-            flex-direction: row-reverse;
-        }
+    .main-row:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 
-        .main-header {
-            font-size: 42px;
-        }
+    .main-header {
+        font-size: 42px;
+    }
 
-        .main-content {
-            width: auto;
-        }
+    .main-content {
+        width: auto;
+    }
 
-        .main-content-text {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
+    .main-content-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
 
-        .button {
-            font-size: 18px;
-            padding-left: 30px;
-            padding-right: 30px;
-            height: 46px;
-        }
+    .button {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 46px;
+    }
 
-        .main-img {
-            width: 170px;
-            margin-right: 30px;
-            flex-shrink: 0;
-        }
+    .main-img {
+        width: 170px;
+        margin-right: 30px;
+        flex-shrink: 0;
+    }
 
-        .main-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    .main-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-        .footer {
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-        .footer-row {
-            flex-wrap: wrap;
-        }
+    .footer-row {
+        flex-wrap: wrap;
+    }
 
-        .footer-copyright {
-            order: 1;
-            width: auto;
-        }
+    .footer-copyright {
+        order: 1;
+        width: auto;
+    }
 
-        .footer-widgets-wrapper {
-            width: 100%;
-            margin-bottom: 50px;
-        }
+    .footer-widgets-wrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
-        .footer-widgets-wrapper>* {
-            width: calc(50% - 15px);
-        }
+    .footer-widgets-wrapper>* {
+        width: calc(50% - 15px);
+    }
 
-        /* Tours */
+    /* Tours */
 
-        .inner-page {
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
+    .inner-page {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
-        .cards-first-row {
-            flex-direction: column;
-        }
+    .cards-first-row {
+        flex-direction: column;
+    }
 
-        .cards-second-row {
-            flex-direction: column;
-        }
+    .cards-second-row {
+        flex-direction: column;
+    }
 
-        /* Article */
-        .inner-page {
-            padding-top: 35px;
-        }
+    /* Article */
+    .inner-page {
+        padding-top: 35px;
+    }
 
-        .row-article-page {
-            flex-direction: column-reverse;
-            gap: 40px;
-        }
+    .row-article-page {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 
-        .article-page-nav {
-            width: auto;
-        }
+    .article-page-nav {
+        width: auto;
+    }
 
-        .article-page-article h1 {
-            font-size: 42px;
-            margin-bottom: 26px;
-        }
+    .article-page-article h1 {
+        font-size: 42px;
+        margin-bottom: 26px;
+    }
 
-        .article-page-article img {
-            margin-top: 23px;
-            margin-bottom: 31px;
-        }
+    .article-page-article img {
+        margin-top: 23px;
+        margin-bottom: 31px;
+    }
 
-        .logo {
-            font-size: 34px;
-        }
+    .logo {
+        font-size: 34px;
+    }
 
-        .article-page-article {
-            width: auto;
-        }
+    .article-page-article {
+        width: auto;
+    }
 
-        .article-page-nav-title {
-            font-size: 31px;
-        }
+    .article-page-nav-title {
+        font-size: 31px;
+    }
 
-        .article-page-article h2 {
-            font-size: 35px;
-            margin-bottom: 21px;
-        }
+    .article-page-article h2 {
+        font-size: 35px;
+        margin-bottom: 21px;
+    }
 
-        .article-page-article h3 {
-            font-size: 29px;
-        }
+    .article-page-article h3 {
+        font-size: 29px;
+    }
 
-        .article-page-article h4 {
-            font-size: 24px;
-        }
+    .article-page-article h4 {
+        font-size: 24px;
+    }
 
-        .article-page-article p {
-            margin-bottom: 23px;
-        }
+    .article-page-article p {
+        margin-bottom: 23px;
+    }
 
-        /* Contacts */
-        .contact-info {
-            flex-direction: column;
-        }
+    /* Contacts */
+    .contact-info {
+        flex-direction: column;
+    }
 
-        .contact-block-body {
-            font-size: 18px;
-        }
+    .contact-block-body {
+        font-size: 18px;
+    }
 
-        .contacts-header {
-            margin-bottom: 34px;
-        }
+    .contacts-header {
+        margin-bottom: 34px;
+    }
 
-        .contact-block {
-            margin-bottom: 0;
-        }
-
-
-        .contact-list li {
-            margin-bottom: 22px;
-        }
-
-        .contact-block-title {
-            margin-bottom: 25px;
-        }
-
-        .contact-row {
-            gap: 40px;
-        }
-
-        .form-group-title-tablets {
-            font-size: 20px;
-        }
-
-        .button {
-            font-size: 16px;
-        }
-
-        /* Tours */
-        .card.small {
-            width: auto;
-        }
-
-        .card.small img {
-            height: auto;
-            object-fit: none;
-        }
-
+    .contact-block {
+        margin-bottom: 0;
     }
 
 
-
-    /* MOBILE XS */
-
-    @media (max-width:599px) {
-        .container {
-            width: auto;
-        }
-
-        .header-top,
-        .header-content {
-            width: 100%;
-        }
-
-        .logo {
-            font-size: 30px;
-        }
-
-        .header-title {
-            font-size: 32px;
-            margin-bottom: 10px;
-
-        }
-
-        .header-content p {
-            font-size: 18px;
-        }
-
-        .main {
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
-
-        .main .container {
-            width: 100%;
-        }
-
-        .main-row {
-            flex-direction: column-reverse;
-            margin-bottom: 40px;
-        }
-
-        .main-row:nth-child(even) {
-            flex-direction: column-reverse;
-        }
-
-        .main-img {
-            width: auto;
-            height: 150px;
-            margin-right: 0;
-            margin-bottom: 20px;
-        }
-
-        .main-header {
-            font-size: 34px;
-        }
-
-        .footer {
-            text-align: center;
-        }
-
-        .footer-row {
-            flex-direction: column;
-        }
-
-        .footer-widgets-wrapper {
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 37px;
-        }
-
-        .footer-widget-services {
-            display: block;
-        }
-
-        .footer-widget {
-            margin-bottom: 1px;
-        }
-
-        .footer-widget+.footer-widget {
-            margin-left: 0;
-        }
-
-        .footer-widgets-wrapper>* {
-            width: 100%;
-        }
-
-        .footer-widget-title {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .footer-widget-list {
-            font-size: 16px;
-        }
-
-        .footer-widget-list li {
-            margin-bottom: 10px;
-        }
-
-        /* Article */
-        .article-page-article h1 {
-            font-size: 24px;
-            margin-bottom: 7px;
-        }
-
-        .article-page-article p {
-            font-size: 16px;
-        }
-
-        .article-page-article h2 {
-            font-size: 33px;
-            margin-bottom: 7px;
-        }
-
-        .article-page-article h3 {
-            font-size: 26px;
-        }
-
-        .article-page-article h4 {
-            font-size: 21px;
-        }
-
-        .article-page-nav-title {
-            font-size: 22px;
-        }
-
-        .article-page-nav-list a {
-            font-size: 16px;
-        }
-
-        /* Contacts */
-        .contact-block-body {
-            max-width: 599px;
-        }
-
-        .main-header {
-            font-size: 27px;
-        }
-
-        .contact-block-title {
-            font-size: 20px;
-        }
-
-        .contacts-header {
-            margin-bottom: 22px;
-        }
-
-        .contact-block-title {
-            margin-bottom: 17px;
-        }
-
-        .contact-list {
-            font-size: 15px;
-        }
-
-        .form {
-            padding: 20px 15px;
-        }
-
-        .form-title {
-            font-size: 24px;
-        }
-
-        .form-group-row {
-            flex-direction: column;
-        }
-
-        .form-group-title-tablets {
-            font-size: 18px;
-        }
-
-        /* Tours */
-        .card-title-wrapper {
-            width: 290px;
-            height: 50px;
-            padding-left: 19px;
-            padding-right: 19px;
-        }
-
-        .cards-first-row {
-            align-items: center;
-            gap: 20px;
-        }
-
-        .cards-second-row {
-            align-items: center;
-            gap: 20px;
-        }
-
-        .card-title {
-            font-size: 20px;
-        }
-
-        .contact-block-body iframe {
-            height: 157px;
-        }
+    .contact-list li {
+        margin-bottom: 22px;
     }
+
+    .contact-block-title {
+        margin-bottom: 25px;
+    }
+
+    .contact-row {
+        gap: 40px;
+    }
+
+    .form-group-title-tablets {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    /* Tours */
+    .card.small {
+        width: auto;
+    }
+
+    .card.small img {
+        height: auto;
+        object-fit: none;
+    }
+
+}
+
+
+
+/* MOBILE XS */
+
+@media (max-width:599px) {
+    .container {
+        width: auto;
+    }
+
+    .header-top,
+    .header-content {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-header {
+        font-size: 34px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 37px;
+    }
+
+    .footer-widget-services {
+        display: block;
+    }
+
+    .footer-widget {
+        margin-bottom: 1px;
+    }
+
+    .footer-widget+.footer-widget {
+        margin-left: 0;
+    }
+
+    .footer-widgets-wrapper>* {
+        width: 100%;
+    }
+
+    .footer-widget-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list {
+        font-size: 16px;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+
+    /* Article */
+    .article-page-article h1 {
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+
+    .article-page-article p {
+        font-size: 16px;
+    }
+
+    .article-page-article h2 {
+        font-size: 33px;
+        margin-bottom: 7px;
+    }
+
+    .article-page-article h3 {
+        font-size: 26px;
+    }
+
+    .article-page-article h4 {
+        font-size: 21px;
+    }
+
+    .article-page-nav-title {
+        font-size: 22px;
+    }
+
+    .article-page-nav-list a {
+        font-size: 16px;
+    }
+
+    /* Contacts */
+    .contact-block-body {
+        max-width: 599px;
+    }
+
+    .main-header {
+        font-size: 27px;
+    }
+
+    .contact-block-title {
+        font-size: 20px;
+    }
+
+    .contacts-header {
+        margin-bottom: 22px;
+    }
+
+    .contact-block-title {
+        margin-bottom: 17px;
+    }
+
+    .contact-list {
+        font-size: 15px;
+    }
+
+    .form {
+        padding: 20px 15px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-group-row {
+        flex-direction: column;
+    }
+
+    .form-group-title-tablets {
+        font-size: 18px;
+    }
+
+    /* Tours */
+    .card-title-wrapper {
+        width: 290px;
+        height: 50px;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+
+    .cards-first-row {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cards-second-row {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .contact-block-body iframe {
+        height: 157px;
+    }
+}
