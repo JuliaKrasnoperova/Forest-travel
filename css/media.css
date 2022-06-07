@@ -75,7 +75,7 @@
     }
 
     .footer-logo {
-        margin-bottom: 20px;
+        margin-bottom: 9px;
     }
 
     .footer-copyright p {
@@ -246,7 +246,7 @@
     .footer-widgets-wrapper {
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0;
+        margin-bottom: 37px;
     }
 
     .footer-widget-services {
@@ -254,7 +254,7 @@
     }
 
     .footer-widget {
-        margin-bottom: 40px;
+        margin-bottom: 1px;
     }
 
     .footer-widget+.footer-widget {
