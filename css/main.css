@@ -11,7 +11,7 @@ font-family: 'PT Sans', sans-serif;
 
 html {
     /* sticky footer */
-
+    scroll-behavior: smooth;
     height: 100%;
 }
 
