@@ -39,6 +39,18 @@
         font-size: 0;
     }
 
+    .nav-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: none;
+        position: absolute;
+        top: -16px;
+        right: 47px;
+        z-index: 999;
+    }
+
     .main {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -439,6 +451,10 @@
 
     .header-content p {
         font-size: 18px;
+    }
+
+    .header-nav-mobile {
+        width: 100%;
     }
 
     .main {

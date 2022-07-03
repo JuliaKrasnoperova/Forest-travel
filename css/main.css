@@ -26,6 +26,10 @@ body {
     flex-direction: column;
 }
 
+body.locked {
+    overflow: hidden;
+}
+
 body>* {
     /* sticky footer */
     flex-shrink: 0;
@@ -141,6 +145,7 @@ ul {
 .header-nav {
     font-size: 22px;
     color: #FFFFFF;
+    position: relative;
 
 }
 
@@ -202,6 +207,108 @@ ul {
     height: 24px;
     background-image: url(../images/icons/arrow.svg);
 }
+
+.nav-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+
+}
+
+.nav-icon__middle {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+
+
+}
+
+.nav-icon__middle::before {
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.nav-icon__middle::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.nav-icon__middle.nav-icon-active {
+    background: transparent;
+    z-index: 999;
+}
+
+.nav-icon__middle.nav-icon-active::before {
+    transform: rotate(45deg);
+    top: 0;
+
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+.nav-icon__middle.nav-icon-active::after {
+    transform: rotate(-45deg);
+    top: 0;
+
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+.header-nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    width: 320px;
+    height: 100%;
+    background-color: rgba(41, 95, 64, 0.9);
+    opacity: 0;
+    z-index: 9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 40px;
+
+    transition: all 0.2s ease-in;
+}
+
+.header-nav-mobile a {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header-nav-mobile.header-nav-mobile--active {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+
 
 /* main */
 
