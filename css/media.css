@@ -46,8 +46,8 @@
         background: transparent;
         border: none;
         position: absolute;
-        top: -16px;
-        right: 47px;
+        top: -17px;
+        right: 0;
         z-index: 999;
     }
 
